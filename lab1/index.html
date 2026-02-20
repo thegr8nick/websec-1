@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="calculator__calculation">
+            <input id="firstnumb" type="text" class="calculator__calculation-inp" placeholder="First number">
+            <select id="operation" class="calculator__calculation-sl">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+                <option value="%">%</option>
+                <option value="xⁿ">xⁿ</option>
+            </select>
+            <input id="secnumb" type="text" class="calculator__calculation-inp" placeholder="Second number">
+        </div>
+        <button id="btn" class="calculator__btn">=</button>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
